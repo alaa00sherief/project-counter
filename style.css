@@ -1,0 +1,266 @@
+/* start global*/
+* {
+	margin:0;
+	padding:0;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	font-family: Poppins, Helvetica, arial, sans-serif
+
+
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	position: relative;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif
+
+}
+
+header{
+ 	        background-image: linear-gradient(rgba(214, 46, 51 , 0.6),rgba(214, 46, 51 , 0.6)), url(events-heavenly-header.jpg);
+
+	background-position:center;
+	background-attachment:scroll;
+	background-size:100% 100%;
+		height:660px; 
+		padding:100px 0px  
+
+}
+
+header h2{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    line-height: 66px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #fff;
+        margin-top: 116px;
+}
+header p{
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: normal;
+    color: #fff;
+      margin: 0 0 10px
+
+}
+#aside {
+    height: 100%;
+    width: 250px;
+    z-index: 1;
+     position: fixed;
+    top: 0;
+    left: 0;
+    color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    display: none;
+           background-color: #414658;
+    padding: 10px;
+    float: left;
+  display: none
+
+
+}
+
+
+
+
+
+#aside a {
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+
+#aside i{
+    position: absolute;
+    right: 23px;
+    font-size: 16px
+}
+.icon {
+        position:fixed;
+    top: 160px;
+    left: 0px;
+    z-index: 6564;
+
+}
+.icon i 
+{
+    color: #fff;
+    padding: 10px;
+    float: left;
+    cursor: pointer;
+        font-size:30px;
+
+
+}
+.icon span {
+    color: #fff;
+   float: left;
+   cursor: pointer;
+   font-size:35px;
+   line-height: 35.7px;
+   font-weight:500;
+
+
+}
+
+
+#singer
+{
+    margin: 100px auto;
+    width: 50%;
+    
+}
+
+#singer h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+
+
+#singer div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+#times-1
+{
+   
+    background-image: url(invitation-2508607__340.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+    height: 330px;
+    
+    
+}
+
+
+.layer
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(214, 46, 51 , 0.6);
+    color: white;
+}
+
+.time
+{
+    padding: 100px 0px;
+}
+
+.tim
+{
+    padding: 58px;
+    border: 1px solid #FFF;
+    margin: 0 15px;
+    width:  255px;
+
+}
+#hire-me{
+    margin-top:100px;
+}
+
+#hire-me .hire h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    color:#444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#hire-me .hire p{
+    color:#777;
+    font-weight: 300;
+    font-size: 16px;
+}
+#hire-me .form h3{
+    color:#444;
+    font-size: 18px;
+    font-weight: bold;
+}
+#hire-me .form p{
+    font-size: 16px;
+    line-height: 26px;
+    color:#777;
+}
+
+#hire-me .icons{
+    margin-top:50px;
+}
+#hire-me .icons p{
+    margin-bottom: 35px;
+}
+#hire-me i{
+    margin-right: 20px;
+    color:#777;
+}
+#hire-me .red{
+    color:#D62E33 !important;
+}
+
+
+#hire-me .form .con-social{
+    margin-top:60px;
+    color:#777;
+    
+}
+
+#hire-me .form .con-social i{
+    margin-right: 10px;
+    border:1px solid #999;
+    width:40px;
+    height: 40px;
+    line-height: 42px;
+    cursor: pointer;
+    text-align: center;
+}
+#hire-me .form .con-social i:hover{
+    color:#fff;
+    background-color: #D62E33;
+    border:1px solid #D62E33;
+}
+#hire-me form input,
+#hire-me form textarea{
+    margin-bottom: 20px;
+    border-radius: 0;
+}
+#hire-me form textarea{
+    height: 200px;
+    resize:vertical;
+}
+
+#hire-me form button{
+    background-color: #D62E33;
+    color:#fff;
+    padding:10px 20px;
+    border-radius: 0;
+    text-transform: uppercase
+}
+
+#count
+{
+    font-size: 20px;
+    color: #D62E33;
+}
+
